@@ -1,0 +1,15 @@
+{
+  "name": "bazichart",
+  "owner": { "name": "BaziChart.ai", "email": "support@bazichart.ai" },
+  "metadata": {
+    "description": "BaZi (Four Pillars) and Zi Wei Dou Shu chart calculation for AI assistants.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "bazichart",
+      "source": "./",
+      "description": "Connects the hosted BaziChart MCP server and adds a skill that tells the assistant how to cast BaZi and Zi Wei Dou Shu charts correctly."
+    }
+  ]
+}

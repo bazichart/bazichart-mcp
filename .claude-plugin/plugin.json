@@ -1,0 +1,27 @@
+{
+  "name": "bazichart",
+  "description": "Connects the hosted BaziChart MCP server and adds a skill that tells the assistant how to cast BaZi and Zi Wei Dou Shu charts correctly.",
+  "version": "1.0.0",
+  "author": {
+    "name": "BaziChart.ai",
+    "email": "support@bazichart.ai",
+    "url": "https://bazichart.ai"
+  },
+  "homepage": "https://bazichart.ai/en/mcp/",
+  "repository": "https://github.com/bazichart/bazichart-mcp",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "bazi",
+    "four-pillars",
+    "ziwei",
+    "zi-wei-dou-shu",
+    "chinese-astrology",
+    "mcp"
+  ],
+  "mcpServers": {
+    "bazichart": {
+      "type": "http",
+      "url": "https://mcp.bazichart.ai/mcp"
+    }
+  }
+}
