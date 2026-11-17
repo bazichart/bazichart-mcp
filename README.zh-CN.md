@@ -39,11 +39,13 @@ Plugins → 打开插件目录 → **Add** → **Add custom MCP server**。名�
 
 ### Claude Code
 
+在终端里运行：
+
 ```bash
 claude mcp add --transport http bazichart https://mcp.bazichart.ai/mcp
 ```
 
-也可以在 Claude Code 里直接安装插件，一步完成接入服务和安装 [BaziChart 技能](#agent-技能)：
+也可以安装插件，一步完成接入服务和安装 [BaziChart 技能](#agent-技能)。下面的命令在 Claude Code 会话的输入框里输入，不是在终端里运行：
 
 ```
 /plugin install bazichart --marketplace bazichart/bazichart-mcp
@@ -58,9 +60,7 @@ claude mcp add --transport http bazichart https://mcp.bazichart.ai/mcp
 
 ### Cursor
 
-[![Add to Cursor](https://img.shields.io/badge/Add_to-Cursor-1f2328?style=flat-square)](https://cursor.com/en/install-mcp?name=bazichart&config=eyJ1cmwiOiJodHRwczovL21jcC5iYXppY2hhcnQuYWkvbWNwIn0=)
-
-或手动添加：`.cursor/mcp.json`
+添加到 `.cursor/mcp.json`：
 
 ```json
 {
@@ -72,9 +72,7 @@ claude mcp add --transport http bazichart https://mcp.bazichart.ai/mcp
 
 ### VS Code
 
-[![Add to VS Code](https://img.shields.io/badge/Add_to-VS_Code-1f2328?style=flat-square)](https://insiders.vscode.dev/redirect/mcp/install?name=bazichart&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.bazichart.ai%2Fmcp%22%7D)
-
-或手动添加：`.vscode/mcp.json`
+添加到 `.vscode/mcp.json`：
 
 ```json
 {

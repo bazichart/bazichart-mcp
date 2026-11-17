@@ -39,11 +39,13 @@ Plugins → browse the directory → **Add** → **Add custom MCP server**. Name
 
 ### Claude Code
 
+In a terminal:
+
 ```bash
 claude mcp add --transport http bazichart https://mcp.bazichart.ai/mcp
 ```
 
-Or install the plugin from inside Claude Code. It connects the server and adds the [BaziChart skill](#agent-skill) in one step:
+Or install the plugin, which connects the server and adds the [BaziChart skill](#agent-skill) in one step. Type this at the prompt inside a Claude Code session, not in the terminal:
 
 ```
 /plugin install bazichart --marketplace bazichart/bazichart-mcp
@@ -58,9 +60,7 @@ On versions that do not accept `--marketplace`, run the two steps separately:
 
 ### Cursor
 
-[![Add to Cursor](https://img.shields.io/badge/Add_to-Cursor-1f2328?style=flat-square)](https://cursor.com/en/install-mcp?name=bazichart&config=eyJ1cmwiOiJodHRwczovL21jcC5iYXppY2hhcnQuYWkvbWNwIn0=)
-
-Or add it by hand: `.cursor/mcp.json`
+Add to `.cursor/mcp.json`:
 
 ```json
 {
@@ -72,9 +72,7 @@ Or add it by hand: `.cursor/mcp.json`
 
 ### VS Code
 
-[![Add to VS Code](https://img.shields.io/badge/Add_to-VS_Code-1f2328?style=flat-square)](https://insiders.vscode.dev/redirect/mcp/install?name=bazichart&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.bazichart.ai%2Fmcp%22%7D)
-
-Or add it by hand: `.vscode/mcp.json`
+Add to `.vscode/mcp.json`:
 
 ```json
 {
