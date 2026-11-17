@@ -238,7 +238,7 @@ The skill needs the server connected. Claude Code users get both from the plugin
 
 ## Privacy
 
-No account or key is used, so calls are not tied to an identity. Rate limiting counts calls by IP address. The application log records the tool name, status and duration of each call, and no birth details. Requests pass through Cloudflare. The source link in each response carries `utm_` parameters that identify the MCP server as the origin of a visit. The website's privacy policy is at [bazichart.ai/en/privacy](https://bazichart.ai/en/privacy/).
+No account or key is used, so calls are not tied to an identity. Rate limiting counts calls by IP address. The application log records the tool name, status and duration of each call, and no birth details. Requests pass through Cloudflare. The source link in each response carries `utm_` parameters that identify the MCP server as the origin of a visit. The website's privacy policy is at [bazichart.ai/en/legal/privacy](https://bazichart.ai/en/legal/privacy/).
 
 ## Attribution
 

@@ -238,7 +238,7 @@ npx skills add bazichart/bazichart-mcp
 
 ## 隱私
 
-不使用帳號或金鑰，呼叫不與任何身分關聯。限額按 IP 位址計數。應用程式記錄只記每次呼叫的工具名稱、狀態和耗時，不記出生資料。請求經由 Cloudflare 到達伺服器。每次傳回的來源連結帶有 `utm_` 參數，用於標明造訪來自 MCP 服務。網站的隱私權政策見 [bazichart.ai/zh-TW/privacy](https://bazichart.ai/zh-TW/privacy/)。
+不使用帳號或金鑰，呼叫不與任何身分關聯。限額按 IP 位址計數。應用程式記錄只記每次呼叫的工具名稱、狀態和耗時，不記出生資料。請求經由 Cloudflare 到達伺服器。每次傳回的來源連結帶有 `utm_` 參數，用於標明造訪來自 MCP 服務。網站的隱私權政策見 [bazichart.ai/zh-TW/legal/privacy](https://bazichart.ai/zh-TW/legal/privacy/)。
 
 ## 署名
 

@@ -238,7 +238,7 @@ npx skills add bazichart/bazichart-mcp
 
 ## 隐私
 
-不使用账号或密钥，调用不与任何身份关联。限额按 IP 地址计数。应用日志只记录每次调用的工具名、状态和耗时，不记录出生资料。请求经由 Cloudflare 到达服务器。每次返回的来源链接带有 `utm_` 参数，用于标明访问来自 MCP 服务。网站的隐私政策见 [bazichart.ai/zh-CN/privacy](https://bazichart.ai/zh-CN/privacy/)。
+不使用账号或密钥，调用不与任何身份关联。限额按 IP 地址计数。应用日志只记录每次调用的工具名、状态和耗时，不记录出生资料。请求经由 Cloudflare 到达服务器。每次返回的来源链接带有 `utm_` 参数，用于标明访问来自 MCP 服务。网站的隐私政策见 [bazichart.ai/zh-CN/legal/privacy](https://bazichart.ai/zh-CN/legal/privacy/)。
 
 ## 署名
 
